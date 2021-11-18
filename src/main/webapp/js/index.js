@@ -62,6 +62,12 @@ function query() {
        });  
 }
 
-function getJSONData(fnName, args){
-    return '{"apiKey":"","chaincodeName":"eduBook","functionName":"'+ fnName + '","args":["' + args + '"]}';
+// 체인코드 함수 호출 부분
+function getJSONData(fnName, arg1){
+	let data = {
+		"chaincodeName" : "eduBook", // 체인코드 이름
+		"functionName" : fnName, // 함수 이름
+		"args" : [arg1] // 함수 매개변수
+	}
+	return JSON.stringify(data);
 }
