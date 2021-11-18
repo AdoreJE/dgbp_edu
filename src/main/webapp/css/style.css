@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    margin: 0 auto;
+}
+#loading{
+    position: absolute;
+    left: 40%;
+}
+
+input {
+    font-size: 20px;
+}
+
+.textBox {
+    width: 300px;
+    height: 30px;
+}
+
+.buttonBox {
+    height: 30px;
+    width: 100px;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom {
+    margin-top: 5px;
+    
+}
+
+.btn-blue {
+    background-color: lightskyblue;
+}
