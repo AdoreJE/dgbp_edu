@@ -1,0 +1,20 @@
+version: '3'
+
+networks:
+  basic:
+    
+services:
+  httpd:
+    container_name: httpd
+    image: adoreje/httpd
+    volumes:
+      - ./httpd/apache2:/etc/apache2
+      - ./httpd/logs:/var/www/logs
+    ports:
+      - "80:80"
+      - "8000:8000"
+      - "9000:9000"
+    extra_hosts:
+      - "was1:172.23.0.2"
+    networks:
+      - basic

@@ -1,0 +1,19 @@
+[Thu Nov 11 16:41:33.855557 2021] [ssl:warn] [pid 1] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Nov 11 16:41:33.857260 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.48 (Unix) mod_jk/1.2.48 OpenSSL/1.1.1k configured -- resuming normal operations
+[Thu Nov 11 16:41:33.857614 2021] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Thu Nov 11 16:41:50.716605 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri Nov 19 20:22:31.545486 2021] [ssl:warn] [pid 1] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 19 20:22:31.547228 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.48 (Unix) mod_jk/1.2.48 OpenSSL/1.1.1k configured -- resuming normal operations
+[Fri Nov 19 20:22:31.547483 2021] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Nov 19 21:17:25.470371 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.48 (Unix) mod_jk/1.2.48 configured -- resuming normal operations
+[Fri Nov 19 21:17:25.470721 2021] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Nov 19 21:19:12.601512 2021] [proxy:error] [pid 8] (70007)The timeout specified has expired: AH00957: AJP: attempt to connect to 172.23.0.2:8009 (172.23.0.2) failed
+[Fri Nov 19 21:19:12.602269 2021] [proxy_ajp:error] [pid 8] [client 172.27.0.1:58004] AH00896: failed to make connection to backend: 172.23.0.2
+[Fri Nov 19 21:20:28.343000 2021] [proxy:error] [pid 12] (110)Operation timed out: AH00957: http: attempt to connect to 172.23.0.2:8080 (172.23.0.2) failed
+[Fri Nov 19 21:20:28.343654 2021] [proxy_http:error] [pid 12] [client 172.27.0.1:57984] AH01114: HTTP: failed to make connection to backend: 172.23.0.2
+[Fri Nov 19 21:22:29.631275 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri Nov 19 21:22:35.158616 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.48 (Unix) mod_jk/1.2.48 configured -- resuming normal operations
+[Fri Nov 19 21:22:35.159119 2021] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Fri Nov 19 21:24:27.844829 2021] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+[Fri Nov 19 21:24:33.279602 2021] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.48 (Unix) mod_jk/1.2.48 configured -- resuming normal operations
+[Fri Nov 19 21:24:33.279997 2021] [core:notice] [pid 1] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'

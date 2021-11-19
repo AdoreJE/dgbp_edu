@@ -1,0 +1,17 @@
+version: '3'
+networks:
+  basic:
+
+services:
+  tomcat:
+    container_name: tomcat
+    image: adoreje/tomcat
+    volumes:
+      - ./tomcat/conf:/usr/local/tomcat/conf
+      - ./tomcat/webapps:/usr/local/tomcat/webapps
+    ports:
+      - "8080:8080"
+      - "8009:8009"
+    networks:
+      - basic
+
